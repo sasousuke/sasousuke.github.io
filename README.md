@@ -2,11 +2,11 @@
    <a href="/">Home</a>
    <a href="/about/me">About me</a>
 </nav>
-
+<p></p>
 <div class="wellcome">
    Bienvenidos a mi Sitio Web creado con [GitHub Pages](https://pages.github.com/). Estos son mis contenidos.
 </div>
-
+<p></p>
 <div class="content">
   <div class="related">
     {% for post in site.posts %}
@@ -16,7 +16,7 @@
     {% endfor %}
   </div>
 </div>
-
+<p></p>
 <div class="footer">
    No te preocupes si no encuentras lo que buscas, la mayoría de las veces tampoco lo logro.
 </div>
