@@ -1,1 +1,5 @@
 theme: jekyll-theme-architect
+markdown: kramdown
+description: Sitio Personal de Sasousuke en GitHub Pages
+url: "https://sasousuke.github.io/"
+name: Sasousuke
