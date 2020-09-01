@@ -4,7 +4,7 @@
 </nav>
 <p></p>
 <div class="wellcome">
-   Bienvenidos a mi Sitio Web creado con [GitHub Pages](https://pages.github.com/). Estos son mis contenidos.
+   Bienvenidos a mi Sitio Web creado con <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
 </div>
 <p></p>
 <div class="content">
