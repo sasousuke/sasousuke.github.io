@@ -1,4 +1,4 @@
-Bienvenidos a mi Sitio Web creado con GitHub Pages. Estos son mis contenidos.
+Bienvenidos a mi Sitio Web creado con [GitHub Pages](https://pages.github.com/). Estos son mis contenidos.
 
 <div class="content">
   <div class="related">
@@ -9,3 +9,5 @@ Bienvenidos a mi Sitio Web creado con GitHub Pages. Estos son mis contenidos.
     {% endfor %}
   </div>
 </div>
+
+No te preocupes si no encuentras lo que buscas, la mayoría de las veces tampoco lo logro.
