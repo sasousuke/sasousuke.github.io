@@ -1,6 +1,6 @@
 <nav>
-   <a href="/">Home</a>
-   <a href="/about/me">About me</a>
+   <a href="/">Inicio</a>
+   <a href="#">Acerca de mi</a>
 </nav>
 <p></p>
 <div class="wellcome">
