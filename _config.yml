@@ -1,14 +1,13 @@
-title: Your awesome title
+title: Blog de Sasousuke en Páginas de GitHub 
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Ernesto Tur Laurencio
+  email: sasousuke@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Sitio web para exponer las locuras en materia de informática que hago. Quizás
+  con un poco de suerte consiga que te sirva de algo.
 
 # Build settings
 
@@ -28,6 +27,10 @@ minima:
 
   # Generate social links in footer.
   #
+social_links:
+  - { platform: twitter,        user_url: "https://twitter.com/sasousuke" }
+  - { platform: github,         user_url: "https://github.com/sasousuke" }
+
   # social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
