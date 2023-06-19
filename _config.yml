@@ -28,21 +28,25 @@ minima:
   # Generate social links in footer.
   #
   social_links:
+     - { platform: devto,          user_url: "https://dev.to/sasousuke" }
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  { platform: facebook,       user_url: "https://www.facebook.com/sasousuke" }
-  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  { platform: github,         user_url: "https://github.com/sasousuke" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/sasousuke" }
+     - { platform: facebook,       user_url: "https://www.facebook.com/sasousuke" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/sasousuke" }
+     - { platform: github,         user_url: "https://github.com/sasousuke" }
   #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  { platform: instagram,      user_url: "https://www.instagram.com/elaurencio" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  { platform: linkedin,       user_url: "https://www.linkedin.com/in/sasousuke" }
+     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/sasousuke" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/sasousuke" }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-  { platform: telegram,       user_url: "https://t.me/cubven398278" }
-  { platform: twitter,        user_url: "https://twitter.com/sasousuke" }
-  { platform: youtube,        user_url: "https://www.youtube.com/sasousuke" }
+     - { platform: telegram,       user_url: "https://t.me/sasousuke" }
+     - { platform: twitter,        user_url: "https://twitter.com/sasousuke" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+     - { platform: youtube,        user_url: "https://www.youtube.com/sasousuke" }
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
