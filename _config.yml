@@ -41,7 +41,7 @@ minima:
   #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
-      - { platform: telegram,       user_url: "https://t.me/sasousuke" }
+      - { platform: telegram,       user_url: "https://t.me/cubven398278" }
   #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
