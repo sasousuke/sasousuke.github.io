@@ -2,7 +2,7 @@
 layout: post
 title: "Script para descargar las actualizaciones de Segurmatica en GNU/Linux usando Replicator"
 ---
-[Segurmatica](/assets/segurmatica.png)
+[Segurmatica](/assets/img/segurmatica.png)
 
 {% highlight ruby %}
 #!/bin/bash
