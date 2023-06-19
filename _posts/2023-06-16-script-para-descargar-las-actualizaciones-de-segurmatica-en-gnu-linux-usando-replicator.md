@@ -1,13 +1,8 @@
 ---
 layout: post
 title: "Script para descargar las actualizaciones de Segurmatica en GNU/Linux usando Replicator"
-categories: junk
-author:
-- Bart Simpson
-- Nelson Mandela Muntz
-meta: "Springfield"
 ---
-
+[Segurmatica](/assets/segurmatica.png)
 
 {% highlight ruby %}
 #!/bin/bash
