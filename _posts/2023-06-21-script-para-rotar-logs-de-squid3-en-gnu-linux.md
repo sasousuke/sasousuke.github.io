@@ -2,7 +2,7 @@
 layout: post
 title: "Script para rotar logs de squid3 en GNU/Linux"
 ---
-![Segurmatica](/assets/img/squid3.png)
+![Segurmatica](/assets/img/squid3.jpg)
 
 A raíz de la necesidad de tener una forma de rotar los logs de squid3, para llevar un control de la navegación y el análisis de las trazas orientadas por la Oficina para la Seguridad de Redes Informáticas (OSRI), me dispongo a implementar este script que muestro a continuación:
 
