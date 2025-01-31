@@ -8,10 +8,12 @@ Resulta que cuando creas una estructura de directorio donde almacenas las bitaco
 {% highlight ruby %}
 #!/bin/bash
 
-# Directorio base donde estan almacenados los logs que se irán eliminando cuando su fecha de caducidad llegue
+# Directorio base donde estan almacenados los logs que se irán eliminando
+# cuando su fecha de caducidad llegue
 BASEDIR=/home/trazas/logs_rotados 
 
-# Elimino todos los archivos de un directorio y subdirectorios dentro de este que tengan más de 366 dáas de antiguo con respecto a la fecha del sistema.
+# Elimino todos los archivos de un directorio y subdirectorios dentro 
+# que tengan más de 366 días de antiguo con respecto a la fecha del sistema.
 find ${BASEDIR} -type f -mtime +366 -exec rm {} \;
 
 # Eliminar los directorios que están vacíos
