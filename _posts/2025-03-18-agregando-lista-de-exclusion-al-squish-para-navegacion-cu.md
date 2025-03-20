@@ -16,11 +16,11 @@ En la **línea 37** se declara la variable **excludelist** que como su nombre lo
 contabilizador. El contenido original es este:
 
 {% highlight ruby %}
-    @excludelist = (
-        { "field" => 3, "pattern" => "TCP_DENIED/" } ,
-        { "field" => 3, "pattern" => "NONE/" },
-        { "field" => 6, "pattern" => '^http://127\.0\.0\.1/' } # localhost
-    );
+@excludelist = (
+    { "field" => 3, "pattern" => "TCP_DENIED/" } ,
+    { "field" => 3, "pattern" => "NONE/" },
+    { "field" => 6, "pattern" => '^http://127\.0\.0\.1/' } # localhost
+);
 {% endhighlight %}
 
 Como ya supones **adminred**, los campos ahí definidos son los mismos que se definen en la generación de las líneas del **access.log** 
@@ -29,12 +29,12 @@ donde se registra la [URL](https://www.wikipedia.org/URL) del recurso solicitado
 arreglo una expresión regular *(en inglés "pattern"*) para identificar los dominios cubanos. A mí me quedó de esta forma:
 
 {% highlight ruby %}
-    @excludelist = (
-        { "field" => 3, "pattern" => "TCP_DENIED/" } ,
-        { "field" => 3, "pattern" => "NONE/" },
-        { "field" => 6, "pattern" => '^http://127\.0\.0\.1/' }, # localhost
-        { "field" => 6, "pattern" => '^(https?://)([\w.-]+\.)*[\w-]+\.(cu)' } # Navegacion .cu
-    );
+@excludelist = (
+    { "field" => 3, "pattern" => "TCP_DENIED/" } ,
+    { "field" => 3, "pattern" => "NONE/" },
+    { "field" => 6, "pattern" => '^http://127\.0\.0\.1/' }, # localhost
+    { "field" => 6, "pattern" => '^(https?://)([\w.-]+\.)*[\w-]+\.(cu)' } # Navegacion .cu
+);
 {% endhighlight %}
 
 Ahora las notas para mimismo y no volverme loco:
