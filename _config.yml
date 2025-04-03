@@ -16,7 +16,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-pagination
+  - jekyll-paginate
 
 paginate: 5
 
